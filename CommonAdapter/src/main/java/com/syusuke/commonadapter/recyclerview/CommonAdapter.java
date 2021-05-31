@@ -8,9 +8,6 @@ import com.syusuke.commonadapter.recyclerview.base.ViewHolder;
 
 import java.util.List;
 
-/**
- * Created by zhy on 16/4/9.
- */
 public abstract class CommonAdapter<T> extends MultiItemTypeAdapter<T> {
     protected Context mContext;
     protected int mLayoutId;

@@ -17,7 +17,6 @@ public class MultiItemTypeAdapter<T> extends BaseAdapter {
 
     private ItemViewDelegateManager mItemViewDelegateManager;
 
-
     public MultiItemTypeAdapter(Context context, List<T> datas) {
         this.mContext = context;
         this.mDatas = datas;
@@ -91,6 +90,4 @@ public class MultiItemTypeAdapter<T> extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
-
-
 }

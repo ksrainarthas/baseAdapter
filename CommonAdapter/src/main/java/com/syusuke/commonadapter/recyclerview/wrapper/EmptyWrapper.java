@@ -9,9 +9,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.syusuke.commonadapter.recyclerview.base.ViewHolder;
 import com.syusuke.commonadapter.recyclerview.utils.WrapperUtils;
 
-/**
- * Created by zhy on 16/6/23.
- */
 public class EmptyWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static final int ITEM_TYPE_EMPTY = Integer.MAX_VALUE - 1;
 

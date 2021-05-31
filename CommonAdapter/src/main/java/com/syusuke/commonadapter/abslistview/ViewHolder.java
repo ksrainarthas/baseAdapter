@@ -34,7 +34,6 @@ public class ViewHolder {
         mConvertView.setTag(this);
     }
 
-
     public static ViewHolder get(Context context, View convertView,
                                  ViewGroup parent, int layoutId, int position) {
         if (convertView == null) {
@@ -49,7 +48,6 @@ public class ViewHolder {
             return holder;
         }
     }
-
 
     /**
      * 通过viewId获取控件

@@ -2,10 +2,6 @@ package com.syusuke.commonadapter.recyclerview.base;
 
 import androidx.collection.SparseArrayCompat;
 
-
-/**
- * Created by zhy on 16/6/22.
- */
 public class ItemViewDelegateManager<T> {
     SparseArrayCompat<ItemViewDelegate<T>> delegates = new SparseArrayCompat();
 
